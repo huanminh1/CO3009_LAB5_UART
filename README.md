@@ -4,6 +4,7 @@
 Hi everyone, this is the README file for the CO3009_LAB5_UART project. This project implements UART communication between an STM32 microcontroller and a simulated terminal (Proteus Virtual Terminal). The system uses a simple protocol: the terminal requests sensor data with !RST#, the STM32 responds with the ADC value, and the terminal acknowledges with !OK#. The design ensures reliable communication using state machines and a timeout mechanism for retransmission.
 
 ## 2. Video Demonstration
+[Watch the demo video on Google Drive](https://drive.google.com/file/d/1T6u-kS3Q5N-cYSjClZIX4mUtTl6iHBII/view?usp=sharing) 
 
 ## 3. Schematic
 ![Schematic in Proteus](Image/Proteus.png)
